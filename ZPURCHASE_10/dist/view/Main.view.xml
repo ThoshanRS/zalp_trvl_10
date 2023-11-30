@@ -1,0 +1,27 @@
+<mvc:View controllerName="com.ibm.zpurchase10.btpsap.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+
+    <Table items="{C_PurchaseOrderFs}">
+
+<columns>
+<Column>
+<Text text="Purchase Order"/>
+</Column>
+<Column>
+<Text text="Purchase Order Name"/>
+</Column>
+</columns>
+<ColumnListItem>
+<cells>
+<Text text="{C_PurchaseOrderFs}"/>
+</cells>
+</ColumnListItem>
+</Table>
+</content>
+</Page>
+</mvc:View>
+
+
